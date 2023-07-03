@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,236 +13,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital,wght@0,400;1,700&display=swap"
         rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .dark-mode {
-            color: white;
-            background-color: black;
-            font-family: 'Playfair Display';
-        }
-
-        .dark-mode nav {
-            background-color: rgba(72, 95, 109, 0.92);
-        }
-
-        .dark-mode footer {
-            background-color: rgba(72, 95, 109, 0.92);
-        }
-
-        body {
-            background-color: rgb(71, 143, 194);
-            color: white;
-            font-family: 'Playfair Display';
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 58px;
-            background-color: rgb(55, 99, 131);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-
-        }
-
-        nav ul li a:hover {
-            color: rgb(63, 193, 182);
-            /* font-size: 1.04rem; */
-        }
-
-        .left {
-            font-size: 1.8rem;
-        }
-
-        .firstsection {
-            display: flex;
-            justify-content: space-around;
-            margin: 77px 0px;
-            align-items: center;
-        }
-
-        .firstsection>div {
-            width: 30%;
-        }
-
-        .leftsection {
-            font-size: 3rem;
-            font-family: "Dancing Script";
-            width: 103%;
-            margin-top: 50px;
-
-        }
-
-        .rightsection img {
-            width: 133.5%;
-            margin: 30px 0;
-        }
-
-        .purple {
-            color: rgb(13, 84, 123);
-        }
-
-        #element {
-            color: rgb(13, 84, 123);
-        }
-
-        .secondsection {
-            max-width: 80vw;
-            margin: auto;
-            height: 90vh;
-        }
-
-        main hr {
-            border: 0;
-            background: rgb(13, 84, 123);
-            height: 1.2px;
-            margin: 23px 60px;
-        }
-
-        .secondsection h1 {
-            font-size: 1.9rem;
-        }
-
-        .textcolour {
-            color: rgb(41, 65, 164);
-        }
-
-        .secondsection .box {
-            background: white;
-            width: 85%;
-            height: 2px;
-            margin: 90px 0;
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .secondsection .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 100px;
-        }
-
-        .verticaltitle {
-            position: relative;
-            top: 40px;
-            width: 150px;
-            font-size: 20px;
-            left: -42px;
-        }
-
-
-        .vertical-desc {
-            top: 43px;
-            position: relative;
-            font-size: 14px;
-            color: rgb(41, 65, 164);
-            left: -42px;
-            width: 250px;
-        }
-
-        .image-top {
-            position: relative;
-            width: 73px;
-            top: -68px;
-            left: -38px;
-        }
-
-        footer {
-            background-color: rgb(55, 99, 131);
-
-        }
-
-        .footer {
-            padding: 23px 122px;
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        .footer ul {
-            list-style: none;
-        }
-
-        .footer>div {
-            width: 23px;
-        }
-
-        footer .centertext {
-            text-align: center;
-            color: black;
-            padding: 12px 0;
-        }
-
-        .toggle-label {
-            width: 3rem;
-            height: 2rem;
-            background-color: black;
-            display: inline-block;
-            position: relative;
-            border-radius: 10rem;
-        }
-
-        #checkbox {
-            visibility: hidden;
-        }
-
-        #checkbox:checked+.toggle-label .toggle_ball {
-            transform: translateX(1.20rem);
-            background-color: rgb(55, 99, 131);
-
-        }
-
-        .toggle_ball {
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: white;
-            position: absolute;
-            top: 0.25rem;
-            margin-left: .15rem;
-            transition: all .2s linear;
-        }
-
-        .toggle_btn {
-            height: 58px;
-            display: flex;
-            align-items: center;
-        }
-    </style>
-
-
-
-</head>
+        <link href="//db.onlinewebfonts.com/c/dc2e22aeb9024b30a058c690a7f9f7ba?family=Agustina" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/css file/style.css">
+   </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">Sourabh</div>
+            <div class="left" style="font-family: agustina;"><u>Sourabh</u></div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -253,23 +30,27 @@
                     <li><a href="/">Connect</a></li>
                     <li>
                         <div class="toggle_btn">
-                            <input type="checkbox" id="checkbox">
-                            <label for="checkbox" class="toggle-label">
-                                <span class="toggle_ball">
+                            <input type="checkbox" id="checkbox" >
+                            <label for="checkbox" class="toggle-label" style="border: .5px solid black;">
+                                <span class="toggle_ball" style="color: black;">
                                 </span>
                             </label>
                         </div>
                     </li>
                 </ul>
             </div>
-        </nav>
+            
+        </nav> 
+         
     </header>
+    </div>
+
     <div id="container">
         <div class="content">
             <div id="toggleDayOrNight"></div>
         </div>
     </div>
-    <main>
+    <main >
         <section class="firstsection">
             <div class="leftsection">
                 Hi, My name is <span class="purple">Sourabh</span><br>
@@ -278,51 +59,54 @@
                 <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="front.png" alt="">
-            </div>
+                <img src="front.png">
+             </div>
         </section>
         <hr>
         <section class="secondsection">
-            <span class="textcolour">What i have done so far</span>
             <h1>Certification</h1>
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="vert.png" alt="">
+                    <a href="https://coursera.org/share/f9ed0fb8b2c741099f81b1f150087e14" target="_blank"><img class="image-top" src="vert.png" alt=""></a>
 
                     <div class="verticaltitle">
-                        Html,CSS-IBM
+                        <a href="https://coursera.org/share/f9ed0fb8b2c741099f81b1f150087e14" target="_blank">Introduction to Web Development with HTML, CSS, JavaScript</a>
                     </div>
                     <div class="vertical-desc">Lorem ipsum dolor sit amet.</div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="vert.png" alt="">
+                    <a href="https://coursera.org/share/0ecc8161a15b736352ab02ed0dd2be02" target="_blank"><img class="image-top" src="vert.png" alt=""></a>
                     <div class="verticaltitle">
-                        Html,CSS-IBM
+                        <a href="https://coursera.org/share/0ecc8161a15b736352ab02ed0dd2be02" target="_blank">Python 101: Develop Your First Python Program</a>
                     </div>
                     <div class="vertical-desc">Lorem ipsum dolor sit amet.</div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="vert.png" alt="">
+                    <a href="https://coursera.org/share/5c647a52ccfd2c60eecea6191e92a3d2" target="_blank"><img class="image-top" src="vert.png" alt=""></a>
                     <div class="verticaltitle">
-                        Html,CSS-IBM
+                        <a href="https://coursera.org/share/5c647a52ccfd2c60eecea6191e92a3d2" target="_blank">
+                            Working with Subqueries in SQL</a>
                     </div>
                     <div class="vertical-desc">Lorem ipsum dolor sit amet.</div>
                 </div>
 
                 <div class="vertical">
-                    <img class="image-top" src="vert.png" alt="">
+                    <a href="https://coursera.org/share/29520fed30d969962edea9192c8ef37e" target="_blank"><img class="image-top" src="vert.png" alt=""></a>
                     <div class="verticaltitle">
-                        Html,CSS-IBM
+                        <a href="https://coursera.org/share/5c647a52ccfd2c60eecea6191e92a3d2" target="_blank" >Introduction to Cloud Computing</a>
                     </div>
                     <div class="vertical-desc">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
+            
         </section>
+        
     </main>
+    
     <footer>
         <div class="footer">
             <div class="footer-first">
@@ -374,10 +158,10 @@
                 document.body.classList.remove('dark-mode')
             }
         })
-
     </script>
     </div>
     </div>
+
 </body>
 
 </html>

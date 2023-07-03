@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'agustina';
+    src: url('/font/Agustina-Signature.otf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    color: white;
+    background-color: black;
+    font-family: 'Playfair Display';
+}
+
+.dark-mode nav{
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: white;
+    
+}
+.dark-mode nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.dark-mode footer {
+    background-color: rgba(72, 95, 109, 0.92);
+}
+.dark-mode .verticaltitle a {
+    background-color: #f0f1f7;
+    /* mix-blend-mode: multiply; */
+}
+body {
+    background-color: #f0f1f7;
+    color: black;
+    font-family: 'Playfair Display';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: .85;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    color: rgb(63, 193, 182);
+    /* font-size: 1.04rem; */
+}
+
+.left {
+    font-size: 1.8rem;
+    margin-left: 85px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 77px 0px;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    font-family: "Dancing Script";
+    width: 103%;
+    margin-top: 50px;
+
+}
+
+.rightsection img {
+    width: 133.5%;
+    margin: 30px 0;
+
+}
+
+.purple {
+    color: rgb(13, 84, 123);
+}
+
+#element {
+    color: rgb(13, 84, 123);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+
+main hr {
+    border: 0;
+    background: rgb(13, 84, 123);
+    height: 1.2px;
+    margin: 23px 60px;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.textcolour {
+    color: rgb(41, 65, 164);
+}
+
+.secondsection .box {
+    background: black;
+    width: 85%;
+    height: 2px;
+    margin: 90px ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.dark-mode .secondsection .box{
+    background-color: white;
+}
+.dark-mode .secondsection .vertical{
+    background-color: white;
+}
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: black;
+    margin: 0 100px;
+}
+
+.verticaltitle {
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size: 20px;
+    left: -42px;
+    
+}
+.verticaltitle a{
+    text-decoration: none; 
+    color: black;
+}
+
+.dark-mode .verticaltitle a {
+    color: white;
+    background-color: black;
+}
+.vertical-desc {
+    top: 43px;
+    position: relative;
+    font-size: 14px;
+    color: rgb(41, 65, 164);
+    left: -42px;
+    width: 250px;
+}
+
+.image-top {
+    position: relative;
+    width: 73px;
+    top: -68px;
+    left: -38px;
+}
+
+footer {
+    background-color: white;
+
+}
+
+.footer {
+    padding: 23px 122px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 23px;
+}
+
+footer .centertext {
+    text-align: center;
+    color: black;
+    padding: 12px 0;
+}
+
+.toggle-label {
+    margin-bottom: -2.7px;
+    width: 2.8rem;
+    height: 1.6rem;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    border-radius: 10rem;
+}
+
+#checkbox {
+    visibility: hidden;
+}
+
+#checkbox:checked+.toggle-label .toggle_ball {
+    transform: translateX(1.20rem);
+    background-color: rgb(55, 99, 131);
+
+}
+
+.toggle_ball {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    top: 0.19rem;
+    margin-left: .15rem;
+    transition: all .2s linear;
+}
+
+.toggle_btn {
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
